@@ -5,6 +5,12 @@ import streamlit as st
 from huggingface_hub import hf_hub_download
 import requests
 
+st.set_page_config(
+    layout='wide',
+    page_title="Fruit and Vegetable Classifier", 
+    initial_sidebar_state='expanded'
+)
+
 api_key = "3pm2NGZzYongVN1gRjnroVLUpsHC8rKWJFyx5moq"
 
 def load_model():
