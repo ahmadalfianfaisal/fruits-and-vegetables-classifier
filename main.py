@@ -11,7 +11,7 @@ st.set_page_config(
     initial_sidebar_state='expanded'
 )
 
-api_key = "3pm2NGZzYongVN1gRjnroVLUpsHC8rKWJFyx5moq"
+
 
 def load_model():
     model_path = hf_hub_download(repo_id="ahmadalfian/fruits_vegetables_classifier", filename="resnet50_finetuned.pth")
